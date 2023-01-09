@@ -407,7 +407,13 @@ footer section {
     justify-content: space-between;
     margin-bottom: 48px
 }
-
+@media (min-width:992px) and (max-width:1280px) {
+    .card .left-right-container { 
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 .visit-chatt .card .left-right-container {
     padding-left: 24px;
     padding-right: 24px
@@ -445,6 +451,10 @@ footer section {
 .card img {
     width: 100%;
     height: auto;
+    box-shadow: rgba(0, 0, 0, .25) 0 24px 25px, rgba(0, 0, 0, .12) 0 -12px 30px, rgba(0, 0, 0, .12) 0 4px 6px, rgba(0, 0, 0, .17) 0 12px 13px, rgba(0, 0, 0, .09) 0 -3px 5px
+}
+
+.utc-shadow {
     box-shadow: rgba(0, 0, 0, .25) 0 24px 25px, rgba(0, 0, 0, .12) 0 -12px 30px, rgba(0, 0, 0, .12) 0 4px 6px, rgba(0, 0, 0, .17) 0 12px 13px, rgba(0, 0, 0, .09) 0 -3px 5px
 }
 
