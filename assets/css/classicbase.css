@@ -405,7 +405,10 @@ footer section {
 .card .left-right-container {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 48px
+    margin-bottom: 36px;
+}
+.campaign-image {
+    width:100%;height:auto;
 }
 @media (min-width:992px) and (max-width:1280px) {
     .card .left-right-container { 
@@ -421,7 +424,7 @@ footer section {
 .card div.left,
 .card div.right {
     height: 100%;
-    position: relative
+    position: relative;
 }
 
 .card div.left {
@@ -851,6 +854,7 @@ img.power-c-pen {
     .card p {
         text-align: center
     }
+   
     .quick-facts {
         width: 100%;
         max-width: 100%;
